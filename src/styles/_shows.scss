@@ -7,8 +7,9 @@
     &__list {
         margin-top: 44px;
         display: none;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 24px;
+        list-style: none;
 
         &--is-active {
             display: grid;
