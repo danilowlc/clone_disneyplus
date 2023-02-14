@@ -13,6 +13,10 @@
         gap: 24px;
         list-style: none;
 
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         &__item {
             text-align: center;
 
